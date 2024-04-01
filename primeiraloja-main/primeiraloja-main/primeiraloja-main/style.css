@@ -1,0 +1,113 @@
+
+body{
+    color:  white;
+    display: grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "second corpo corpo"
+    "pe pe pe";
+    grid-template-columns: 500px auto auto;
+
+}
+
+header{
+    grid-area: cabeca;
+}
+
+aside{
+    grid-area: second;
+    background-color: dimgray;
+}
+
+main{
+    grid-area: corpo;
+    background-color: black;
+}
+
+footer{
+    grid-area: pe;
+    background-color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: dimgray;
+}
+
+.logo{
+    width: 300px;
+}
+
+@media screen and (max-width: 800) {
+    body{
+        grid-template-areas:
+        "cabeca"
+        "corpo"
+        "aside"
+        "pe";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    } 
+}
+
+.tiffany{
+    width: 300px;
+}
+.freddy{
+    width: 300px;
+}
+
+.insta{
+    width: 70px;
+}
+
+.wr{
+    width: 300px;
+}
+.witness{
+    width: 300px;
+}
+.kyrie{
+    width: 300px;
+}
+
+.youtube{
+    width: 70px;
+}
+.youtube{
+    border-radius: 100px;
+    height: 50px;
+}
+.elementomae{
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.caixa{
+    border: 2px solid grey;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tiffany{
+    width: 250px;
+}
+button{
+    border-radius: 100px;
+    height: 50px;
+    transition: 0.5s;
+}
+button:hover{
+    color: grey;
+    background-color:linear-gradient(blue red);
+}
+.tnblk{
+    width: 250px;
+}
+.tnbrasil{
+    width: 250px;
+}
