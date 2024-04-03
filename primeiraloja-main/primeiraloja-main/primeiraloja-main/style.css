@@ -56,6 +56,10 @@ header{
 .freddy{
     width: 300px;
 }
+.instagram{
+    border-radius: 100px;
+    height: 50px;
+}
 
 .insta{
     width: 70px;
@@ -68,9 +72,14 @@ header{
     width: 300px;
 }
 .kyrie{
-    width: 300px;
+    width: 400px;
 }
+div.links button:hover{
+    transition: 1;
+    color: grey;
+    background-color:linear-gradient(blue red);
 
+}
 .youtube{
     width: 70px;
 }
@@ -79,35 +88,31 @@ header{
     height: 50px;
 }
 .elementomae{
-    border: 2px blue solid;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding: 15px;
 }
 .caixa{
-    border: 2px solid grey;
-    width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin: 5px;
+    width: none;
+    height: none;
+    border: white solid 5px;
+    border-radius: 10px;
 }
+
 .tiffany{
-    width: 250px;
+    width: 300px;
 }
-button{
+.airforce{
+    width: 100px;
     border-radius: 100px;
-    height: 50px;
-    transition: 0.5s;
+
 }
-button:hover{
-    color: grey;
-    background-color:linear-gradient(blue red);
-}
-.tnblk{
-    width: 250px;
-}
-.tnbrasil{
-    width: 250px;
+.tn{
+    width: 300px;
 }
