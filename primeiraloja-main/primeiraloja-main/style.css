@@ -10,8 +10,15 @@ body{
 
 }
 
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px;
+}
 header{
     grid-area: cabeca;
+    grid-area: pe;
+    background-color: aqua;
 }
 
 aside{
@@ -50,12 +57,6 @@ header{
     } 
 }
 
-.tiffany{
-    width: 300px;
-}
-.freddy{
-    width: 300px;
-}
 .instagram{
     border-radius: 100px;
     height: 50px;
@@ -65,15 +66,6 @@ header{
     width: 70px;
 }
 
-.wr{
-    width: 300px;
-}
-.witness{
-    width: 300px;
-}
-.kyrie{
-    width: 300px;
-}
 div.links button:hover{
     transition: 1;
     color: grey;
@@ -82,11 +74,10 @@ div.links button:hover{
 }
 .youtube{
     width: 70px;
-}
-.youtube{
     border-radius: 100px;
     height: 50px;
 }
+
 .elementomae{
    display: flex;
    justify-content: space-around;
@@ -94,50 +85,21 @@ div.links button:hover{
    flex-direction: row;
    padding: 15px;
 }
-.card{
-    border: white solid;
-   width: 400px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 20px;
-   border-radius: 5px;
-}
-.caixamae{
+.caixa{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+    border: white solid 5px;
+    border-radius: 10px;
+    transition: 0.5s;
 }
 
-.tiffany{
-    width: 300px;
-}
-.airforce{
-    width: 100px;
-}
 
-.tn{
-    width: 300px;
-}
-.strange{
-    width: 300px;
-}
-.dunkbr{
-    width: 300px;
-}
-.vans{
-    width: 300px;
-}
-.Adi2000{
-    width: 300px;
-}
-.nocta{
-    width: 300px;
-}
-.card:hover{
-    background-color: rgb(95, 167, 180);
-    transition: 0.2s;
+.caixa:hover{
+    background: linear-gradient(90deg, #FFC0D6, #e0709f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
