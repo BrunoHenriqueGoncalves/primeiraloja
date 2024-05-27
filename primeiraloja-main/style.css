@@ -17,7 +17,7 @@ body{
     "cabeca cabeca cabeca"
     "second corpo corpo"
     "pe pe pe";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
 
 }
@@ -36,6 +36,11 @@ aside{
 main{
     grid-area: corpo;
     background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /*css do footer*/
     
@@ -45,9 +50,10 @@ main{
     }
     
     footer {
-        background-color: rgb(20, 20, 20);
+        grid-area: pe;
+        background-color: grey;
         color: white;
-        padding: 20px 0;
+        padding: 20px;
     }
     
     .footer-container {
@@ -128,28 +134,29 @@ main{
 }
 /*css do card*/
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    display: inline-block;
-    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(235, 9, 9, 0.2);
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: arial;
+    flex-direction: column;
     border-radius: 5px;
     border: white solid 2px;
     color: white;
+    text-align: center;
 }
 /*informações da imagem do card*/
-.imagemBox{
-    width: 250px;
-    height: 250px;
-    min-width: 250px;
-    max-width: 250px;
+.card img{
+    max-height: 200px;
+    
     border-radius: 5px;
-    display:flexbox;
 }
 /*informações do botao do card*/
 .card button {
-    border: none;
+    border: 0;
     outline: 0;
     padding: 12px;
     color: white;
